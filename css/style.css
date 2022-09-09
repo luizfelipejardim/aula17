@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header p {
+    padding-left: 20px;
+    background-color: aquamarine;
+}
+
+.header h1 {
+    padding-left: 20px;
+    background-color: rgb(119, 117, 255);
+}
+
+li {
+    list-style: none;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding-right: 20px;
+
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.campoCadastro {
+    margin-top: 30px;
+    background-color: rgb(119, 117, 255);
+    width: 450px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    display: block;
+}
+
+.campoCadastro div {
+    margin: 20px 0;
+}
+
+input {
+    border-radius: 15px;
+    width: 250px;
+    padding: 10px;
+}
+
+input:hover {
+    background-color: rgb(148, 147, 147);
+}
+
+button {
+    border-radius: 15px;
+    padding: 5px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgb(148, 147, 147);
+}
